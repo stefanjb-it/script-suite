@@ -7,7 +7,7 @@
 #  This script is based on the docker install instructions (https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository).
 
 #VARIABLES
-#  The first variable ($1) is the username, how can access docker after installation without root rights (ONLY WHEN PROVIDED!).
+#  The first variable ($1) is the username, who can access docker after installation without root rights (ONLY WHEN PROVIDED!).
 
 #LOG
 #  The logfile get stored under /var/log/docker/docker_install.log.
