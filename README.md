@@ -21,3 +21,6 @@ The Bash scripts can be used on Linux Servers and Linux PCs.
 | Server 2016 |   Working  | Working |   -  |
 | Server 2019 |   Working  | Working |   -  |
 | Server 2022 |   Working  | Working |   -  |
+
+I'm not crosstesting Powershell scripts on Linux, because most of the
+scripts are using functions that are only working on Windows.
