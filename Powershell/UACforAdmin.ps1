@@ -1,7 +1,7 @@
 <#
 
 .DESCRIPTION
-  The script disables or enables the UAV prompt for local Admins.
+  The script disables or enables the UAC prompt for local Admins.
 
 .NOTES
   Version:        1.2
