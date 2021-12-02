@@ -1,0 +1,11 @@
+name: syntaxCheck
+
+on: push
+
+jobs:
+  PS_Check: 
+    name: Check powershell
+    runs-on: windows-2022
+    steps:
+      - name: PS-Check
+        uses: SleepySysadmin/github-action-pscheck@v0.4.2
