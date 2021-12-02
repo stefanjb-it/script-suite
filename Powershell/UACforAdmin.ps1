@@ -1,10 +1,10 @@
 <#
 
 .DESCRIPTION
-  The script disables or enables the UAC prompt for local Admins.
+  The script disables or enables the UAC prompt for local admins.
 
 .NOTES
-  Version:        1.2
+  Version:        1.3
   Author:         Stefan Joebstl
   Creation Date:  1.5.2020
   
@@ -26,7 +26,7 @@ Write-Host "                                                                    
 #----------------------------------------------------------[Declarations]----------------------------------------------------------
 
 #Script Version
-$ScriptVersion = "1.2"
+$ScriptVersion = "1.3"
 
 $title   = ''
 $msg     = 'Do you what to enable or disable the UAC for local admins?'
@@ -40,9 +40,11 @@ function setUAV_GPO {
 	switch($response){
 		0{
 			Set-ItemProperty "hklm:SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "ValidateAdminCodeSignatures" -Value 1
+			gpupdate /force
 		}
 		1{
 			Set-ItemProperty "hklm:SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "ValidateAdminCodeSignatures" -Value 0
+			gpupdate /force
 		}
 		2{
 			Write-Output "Cancelled"
