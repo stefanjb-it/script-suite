@@ -18,8 +18,10 @@ The Bash scripts can be used on Linux Servers and Linux PCs.
 |  WIN10 21H1 |   Working  | Working |   -  |
 |  WIN10 21H2 |   Working  | Working |   -  |
 |  WIN10 22H1 |   Working  | Working |   -  |
+|  WIN10 22H2 |   Working  | Working |   -  |
 |  WIN11 21H2 |   Working  | Working |   -  |
 |  WIN11 22H1 |   Working  | Working |   -  |
+|  WIN11 22H2 |   Working  | Working |   -  |
 | Server 2016 |   Working  | Working |   -  |
 | Server 2019 |   Working  | Working |   -  |
 | Server 2022 |   Working  | Working |   -  |
